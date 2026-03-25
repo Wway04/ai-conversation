@@ -1,0 +1,8 @@
+# Human-Readable Code
+- ALWAYS use extremely explicit, clearly named variables so that any human developer can easily read and understand the code.
+- Avoid using vague, 1-letter, or overly abbreviated variable names.
+- Ensure your variable names explain what the data holds or what the function does without needing extensive comments.
+
+# Reusability
+- BEFORE writing a new function or component, ALWAYS check the codebase for existing duplicates or similar logic/components. 
+- You MUST reuse existing functions and components whenever possible instead of creating new ones.
