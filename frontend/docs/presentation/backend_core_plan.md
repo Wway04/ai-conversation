@@ -22,7 +22,7 @@ services:
     image: postgres:16-alpine
     ports: ['5432:5432']
     environment:
-      POSTGRES_DB: cod_risk_db
+      POSTGRES_DB: ai_conversation
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes: [pgdata:/var/lib/postgresql/data]
@@ -37,7 +37,7 @@ volumes:
 # Database
 DB_HOST=localhost
 DB_PORT=5432
-DB_NAME=cod_risk_db
+DB_NAME=ai_conversation
 DB_USER=postgres
 DB_PASS=postgres
 
