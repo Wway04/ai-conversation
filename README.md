@@ -73,7 +73,7 @@ docker-compose up -d
 Verify it's running:
 ```bash
 docker ps
-# Should show: cod_risk_db   Up
+# Should show: ai_conversation   Up
 ```
 
 ---
@@ -217,7 +217,7 @@ docker logs ai_conversation
 |---|---|---|
 | `DB_HOST` | `localhost` | PostgreSQL host |
 | `DB_PORT` | `5433` | PostgreSQL port |
-| `DB_NAME` | `cod_risk_db` | Database name |
+| `DB_NAME` | `ai_conversation` | Database name |
 | `DB_USER` | `postgres` | Database user |
 | `DB_PASS` | `postgres` | Database password |
 | `PORT` | `3010` | Backend server port |
@@ -233,7 +233,7 @@ docker logs ai_conversation
 ```bash
 # Make sure Docker is running
 docker-compose up -d
-docker ps  # verify cod_risk_db is Up
+docker ps  # verify ai_conversation is Up
 ```
 
 **Port already in use**
