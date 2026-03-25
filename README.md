@@ -91,7 +91,7 @@ Edit `backend/.env`:
 # Database
 DB_HOST=localhost
 DB_PORT=5433
-DB_NAME=cod_risk_db
+DB_NAME=ai_conversation
 DB_USER=postgres
 DB_PASS=postgres
 
@@ -206,7 +206,7 @@ docker-compose down
 docker-compose down -v
 
 # View database logs
-docker logs cod_risk_db
+docker logs ai_conversation
 ```
 
 ---
